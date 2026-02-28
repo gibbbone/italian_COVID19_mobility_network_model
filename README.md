@@ -1,8 +1,8 @@
 # Italian COVID-19 Mobility Network Model
 
-Code for the epidemiological model of "[Targeted policies and household consumption dynamics: Evidence from high-frequency transaction data](https://www.sciencedirect.com/science/article/pii/S0167268124001926)" (Bonaccorsi et al., *JEBO*, 2024).
+Code for the epidemiological model in "[Targeted policies and household consumption dynamics: Evidence from high-frequency transaction data](https://www.sciencedirect.com/science/article/pii/S0167268124001926)" (Bonaccorsi et al., *JEBO*, 2024).
 
-This codebase adapts the mobility network model from "[Mobility network models of COVID-19 explain inequities and inform reopening](https://www.nature.com/articles/s41586-020-2923-3)" (Chang et al., *Nature*, 2020) for Italian regions and provinces. 
+This codebase adapts the mobility network model from "[Mobility network models of COVID-19 explain inequities and inform reopening](https://www.nature.com/articles/s41586-020-2923-3)" (Chang et al., *Nature*, 2021) for Italian regions and provinces. 
 
 The original study used US Metropolitan Statistical Areas (MSAs) and SafeGraph mobility data; this version is fitted to Italian mobility and official case count data, covering regions such as Lombardia, Veneto, and Toscana. The mobility data is obtained from high-frequency transaction data from a major Italian bank.
 
@@ -165,6 +165,6 @@ Use the figure generation scripts (`make_figures_*.py`) or notebooks to visualiz
 - See `changelog.md` for version history.
 
 ## References
-[1](https://www.sciencedirect.com/science/article/pii/S0167268124001926) Bonaccorsi, G., Scotti, F., Pierri, F., Flori, A., & Pammolli, F. (2024). Targeted policies and household consumption dynamics: Evidence from high-frequency transaction data. Journal of Economic Behavior & Organization, 224, 111-134.
+[[1](https://www.sciencedirect.com/science/article/pii/S0167268124001926)] Bonaccorsi, G., Scotti, F., Pierri, F., Flori, A., & Pammolli, F. (2024). Targeted policies and household consumption dynamics: Evidence from high-frequency transaction data. Journal of Economic Behavior & Organization, 224, 111-134.
 
-[2](https://www.nature.com/articles/s41586-020-2923-3) Chang, S., Pierson, E., Koh, P. W., Gerardin, J., Redbird, B., Grusky, D., & Leskovec, J. (2021). Mobility network models of COVID-19 explain inequities and inform reopening. Nature, 589(7840), 82-87.
+[[2](https://www.nature.com/articles/s41586-020-2923-3)] Chang, S., Pierson, E., Koh, P. W., Gerardin, J., Redbird, B., Grusky, D., & Leskovec, J. (2021). Mobility network models of COVID-19 explain inequities and inform reopening. Nature, 589(7840), 82-87.
